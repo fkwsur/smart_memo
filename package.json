@@ -25,7 +25,7 @@
     "@nestjs/platform-express": "^10.3.2",
     "@prisma/client": "^5.19.0",
     "@zilliz/milvus2-sdk-node": "^2.4.9",
-    "aws-sdk": "^2.1687.0",
+    "aws-sdk": "^2.1691.0",
     "axios": "^1.7.7",
     "bcryptjs": "^2.4.3",
     "dotenv": "^16.4.5",

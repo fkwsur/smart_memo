@@ -9,3 +9,7 @@ This service leverages a locally fine-tuned embedding model tailored for the Kor
 ## Architecture
 
 <img src="./architecture.png" width="100%" alt="architecture" />
+
+## Example
+
+<img src="./client.png" width="100%" alt="example" />
