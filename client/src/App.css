@@ -1,0 +1,103 @@
+.App {
+  display: flex;
+  padding: 2%;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(245, 245, 245);
+  font: 300 1.6rem/30px 'Noto Sans KR', sans-serif;
+}
+
+.wrap {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  font-size: 2rem;
+}
+
+.lnb {
+  display: block;
+  width: 15%;
+  height: 90vh;
+  border-radius: 15px;
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 4px 3px rgba(102, 102, 102, 0.2);
+  word-wrap: break-word;
+}
+
+.lnb h3 {
+  width: 100%;
+  font-size: 1.8rem;
+}
+.lnb p{
+  width: 100%;
+  font-size: 1.4rem;
+  text-align: left;
+}
+.lnb p b{
+  color: rgb(255, 152, 152);
+}
+
+.container {
+  width: 80%;
+}
+
+.container .title {
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+.container .add {
+  display: grid;
+  grid-template-columns: 3% 60% 5% 20% 5%;
+  align-items: center;
+  grid-gap: 10px;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(102, 102, 102, 0.2);
+  font-size: 1.6rem;
+}
+
+.container .add input {
+  height: 30px;
+  border-radius: 5px;
+  border: 0;
+  background-color: rgb(207, 207, 207);
+  padding: 0 10px;
+}
+
+.container .add .btn {
+  height: 30px;
+  border-radius: 5px;
+  background-color: rgb(207, 207, 207);
+}
+
+.content {
+  background-color: #fff;
+  box-shadow: 0 0 4px 3px rgba(102, 102, 102, 0.2);
+  padding: 15px 30px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+.content h4 {
+  display: inline-block;
+  font-size: 1.4rem;
+}
+
+.content .delete{
+  height: 30px;
+  float: right;
+  display: inline-block;
+  color: rgb(255, 129, 109);
+}
+
+.content p {
+  height: auto;
+  font-size: 1.6rem;
+  word-wrap: break-word;
+  overflow-y: auto;
+  padding: 10px 0;
+}

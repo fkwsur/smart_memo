@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+/* Webfont Setting :
+  1. font-family: 'Roboto', sans-serif;
+  2. font-family: 'Nanum Gothic', sans-serif;
+  3. font-family: 'Open Sans', sans-serif;
+  4. font-family: 'Lato', sans-serif;
+  5. font-family: 'Noto Sans KR', sans-serif;
+  6. font-family: 'Teko', sans-serif;
+  7. font-family: 'Teko', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700|Nanum+Gothic:400,700|Noto+Sans+KR:100,300,400,500,700|Open+Sans|Teko:wght@300;400;500;600;700&|Roboto:100,300,400,500,700&display=swap');
+
+
+svg:hover {
+  opacity: 1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 300 'Noto Sans KR', sans-serif;
+  font-size: 1.4rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  line-height: 1.5;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+dl,
+dd,
+dt {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+table,
+tr,
+th,
+td {
+  /* border: 1px solid #000; */
+  border-collapse: collapse;
+}
+
+caption {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  font-size: 1.2rem;
+}
+
+fieldset {
+  border: 0;
+}
+
+legend {
+  display: block;
+  width: 1px;
+  height: 1px;
+  font-size: 1px;
+  text-indent: -9999px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+input,
+label {
+  vertical-align: middle;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+button,
+input {
+  outline: 0;
+}
+
+iframe {
+  pointer-events: none;
+}
+
+
+/* Help Class Setting */
+/* ir(image replace) - 이미지 대체(치환)기법 */
+.ir {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-indent: -9999px;
+  overflow: hidden;
+  background: no-repeat 0 0;
+}
+
+/* 플롯해제 클래스 */
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* 화면 감추기 클래스 */
+.screen-hidden {
+  display: block;
+  width: 1px;
+  height: 1px;
+  font-size: 1px;
+  text-indent: -9999px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
