@@ -8,4 +8,4 @@
 
 ## Architecture
 
-<img src="./memo.png" width="120" alt="Nest Logo" />
+<img src="./memo.png" width="100%" alt="Nest Logo" />
