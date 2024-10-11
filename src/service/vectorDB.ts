@@ -23,7 +23,6 @@ export class VectorDB {
   async CreateDB(): Promise<Error | any> {
     try {
       console.log("vector db test start")
-
       const createCol = await milvusClient.createCollection({
         collection_name: "chronicle_test2",
         fields: [
@@ -66,12 +65,9 @@ export class VectorDB {
       await milvusClient.loadCollectionSync({
         collection_name: 'chronicle_test2',
       });
-      console.log(data)
-      console.log("???????")
       const response = await axios.post('http://127.0.0.1:5000/embedding', {
         data: data
       });
-      console.log(response)
       try {
         await milvusClient.insert({
           collection_name: 'chronicle_test2',
@@ -138,8 +134,6 @@ export class VectorDB {
           metric_type: 'L2',
         });
 
-        // 여기에 llm 이 주제 이름 지어주는 항목 추가
-
         let group_arr = [];
         let subject = [];
         for(const rows of searchResults.results){
@@ -153,7 +147,6 @@ export class VectorDB {
             });
           }
         }
-        console.log(">>>>>>>",group_arr)
         const resp = await ollama.chat({
           model : "gemma2:latest",
           messages: [{
