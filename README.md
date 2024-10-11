@@ -1,10 +1,10 @@
 ## Description
 
-한국어 특화된 임베딩 파인튜닝 모델과 ollama를 통한 로컬 LLM을 기반으로 당신이 자주 메모하는 업무를 랭킹화 해주는 서비스입니다. 
+This service leverages a locally fine-tuned embedding model tailored for the Korean language to process and store user-created memo lists in a vector database. By analyzing the similarity of the vectorized data, the system ranks frequently written tasks. The ranking is further enhanced by utilizing Ollama, a local large language model (LLM), ensuring a seamless and intelligent task prioritization experience.
 
 ## Fine_Tuning_Model
 
- - [한국어 특화된 파인튜닝 모델](https://github.com/fkwsur/text_embbeding_finetuning)
+ - [fine-tuned embedding model](https://github.com/fkwsur/text_embbeding_finetuning)
 
 ## Architecture
 
