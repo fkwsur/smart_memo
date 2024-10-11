@@ -111,7 +111,7 @@ export const App = () => {
             return (
                 <p><b>{i + 1}</b> : {k.title}</p>
             )
-          }) : ""
+          }) : "데이터를 불러오고 있습니다"
           }
         </div>
         <div className="container">
