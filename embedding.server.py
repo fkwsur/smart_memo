@@ -7,7 +7,7 @@ app = Flask(__name__)
 def process_embedding():
     data = request.json
     print(data)
-    model = SentenceTransformer('./hyunji_embbeding', trust_remote_code=True)
+    model = SentenceTransformer('./hyunji_embedding', trust_remote_code=True)
     embd = model.encode(data['data'])
     result = {"embedding": embd.tolist()}
     return jsonify(result)

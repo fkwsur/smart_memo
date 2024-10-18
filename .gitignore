@@ -399,5 +399,5 @@ dist
 .webpack
 .serverless/**/*.zip
 
-hyunji_embbeding
+hyunji_embedding
 volumes

@@ -4,7 +4,7 @@ This service leverages a locally fine-tuned embedding model tailored for the Kor
 
 ## Fine_Tuning_Model
 
- - [fine-tuned embedding model](https://github.com/fkwsur/text_embbeding_finetuning)
+ - [fine-tuned embedding model](https://github.com/fkwsur/text_embedding_finetuning)
 
 ## Architecture
 
